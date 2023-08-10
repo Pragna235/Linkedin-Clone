@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Clone Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class = "navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png"></a>
+
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder = "Search">
+            </div>
+
+
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png"> <span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png"> <span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png"> <span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png"> <span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png"> <span>Notifications</span></a></li>
+            </ul>
+        </div>
+
+        <div class="navbar-right">
+            <div class="online">
+                <img src = "images/user-6.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+            
+        </div>
+<!-- ------------------------------profile-drop-down-menu------------------------ -->
+<div class="profile-menu-wrap" id="profileMenu">
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="images/user-6.png" >
+            <div>
+                <h3>Pragna Yanduri</h3>
+                <a href="profile.html">See your profile</a>
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <img src="images/feedback.png" >
+            <p>Give Feedback</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/setting.png" >
+            <p>Settings & Privacy</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/help.png" >
+            <p>Help & Support</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/display.png" >
+            <p>Display & Accessibility</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/logout.png" >
+            <p>Logout</p>
+            <span>></span>
+        </a>
+
+    </div>
+
+</div>
+    </nav>
+
+    <!-- --------- navbar close -------------*/ -->
+ 
+
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="images/cover.png" width="100%">
+                <div class="profile-container-inner">
+                    <img src="images/user-6.png" class="profile-pic" >
+                    <h1>Pragna Yanduri</h1>
+                    <b>Treasurer at ACM Student Chapter PVPSIT | Published Co Author</b>
+                    <p>Vijayawada, Andhra Pradesh, India &middot; <a href="#">Contact info</a></p>
+                    <div class="mutual-connection">
+                        <img src="images/user-2.png" >
+                        <span>1 mutual connection : Orlando Giggs</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="images/connect.png" >Connect</a>
+                        <a href="#"><img src="images/chat.png" >Message</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-description">
+                <h2>About</h2>
+                <p >I'm a Computer Science Student at Prasad V Potluri Siddhartha Institute of Technology, passionate about computers, new technologies and coding. I'm good at - </p>
+                <p> * Python</p>
+                <p> * C, C++</p> 
+                <p> * Machine Learning and Data Science</p> 
+                <p>
+                    
+                    &nbsp; &nbsp; &nbsp;Along with this, I'm a Freelance Copy Writer and I help businesses, startups and firms build their brand and boost their sales by producing some kick-ass content. I help them by writing data-driven and actionable long-form content in the sales, marketing and eCommerce niches by understanding the target audience and product and tailoring content to their brand style to help them drive towards their desired results.</p>
+                    
+                   <p> &nbsp; &nbsp; &nbsp;I have experience as a Co Author in published anthologies and I have a knack at reading and writing and stalking new technologies!
+                </p>
+                <a href="#" class="see-more-link">See more...</a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-desc-row">
+                    <img src="images/google-clubs.png" >
+                    <div>
+                        <h3>Chapter Member</h3>
+                        <b>Google Student Developer Clubs&middot; Full-Time</b>
+                        <b>August 2023 - Present &middot; 1 month</b>
+                        <p>Attended the Google i/o exteneded 2023 at Vizag on August 5th 2023
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/pvpsit-logo.jpg" >
+                    <div>
+                        <h3>Treasurer at PVPSIT ACM Student Chapter</h3>
+                        <b>Prasad V Potluri Siddhartha Institute of Technology &middot; Full-Time</b>
+                        <b>April 2023 - Present &middot; 4 months</b>
+                        <p>Operated on financial management in the field
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                
+                <div class="profile-desc-row">
+                    <img src="images/nss.png" >
+                    <div>
+                        <h3>NSS Volunteer</h3>
+                        <b>PVPSIT &middot; Full-Time</b>
+                        <b>August 2021 - Present &middot; 1.5 years</b>
+                        <p>Participated in various NSS voluntary events and contributed to the society
+                        </p>
+                       
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="experience-link">Show all 7 experiences <img src="images/right-arrow.png" >
+                </a>
+
+
+
+
+
+            </div>
+            <div class="profile-description">
+                <h2>Education</h2>
+                <div class="profile-desc-row">
+                    <img src="images/pvpsit-logo.jpg" >
+                    <div>
+                        <h3>Prasad V Potluri Siddhartha Institute of Technology</h3>
+                        <b>Computer Science Engineering</b>
+                        <b>2021 - 2025</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/iit-hyd2.png" >
+                    <div>
+                        <h3>Indian Institute of Technology</h3>
+                        <b>Algorithmic Techniques in Computational Biology</b>
+                        <b>2023 - 2023</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/narayana.png" >
+                    <div>
+                        <h3>Naraya Jr. College</h3>
+                        <b>Intermediate - MPC<b>
+                        <b>2019 - 2021</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/narayana.png" >
+                    <div>
+                        <h3>Naraya EKND High School</h3>
+                        <b>10th SSC<b>
+                        <b>2018 - 20219</b>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>Skills</h2>
+                <a href="#" class="skills-btn">Leadership</a>
+                <a href="#" class="skills-btn">Data Science</a>
+                <a href="#" class="skills-btn">Machine Learning</a>
+                <a href="#" class="skills-btn">Problem Solving</a>
+                <a href="#" class="skills-btn">Critical Thinking</a>
+                <a href="#" class="skills-btn">Data Structures</a>
+                <a href="#" class="skills-btn">Algorithms</a>
+                <a href="#" class="skills-btn">OOPS Concept</a>
+            </div>
+            <div class="profile-description">
+                <h2>Languages</h2>
+                <a href="#" class="language-btn">English</a>
+                <a href="#" class="language-btn">Hindi</a>
+                <a href="#" class="language-btn">Telugu</a>
+                
+            </div>
+
+
+        </div>
+<!-- --------------profile-sidebar------------- -->
+        
+
+        <div class="profile-footer">
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+
+                <div class="copyright-msg">
+                    <img src="images/logo.png" >
+                    <p>Linkedup &#169, 2022. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+   
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+
+
+</body>
+</html>
